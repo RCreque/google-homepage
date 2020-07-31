@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .top {
+                display: grid;
+                grid-template-columns: 50% 50%;
+            
+            }
+            .d1 {
+                margin: 15px 0 0 15px;
+            }
+            .d1 a, .d2 a {
+                  margin: 0 0 5px 5px;
+            }
+            .d2 {
+                justify-self: flex-end;
+            }
+            .d2 img {
+                margin: 5px 15px 0 15px;
+            }
+            div a {
+                font-size: 12px;
+            }
+            #signin {
+                background-color: #4385f7;
+                color: white;
+                border-radius: 2px;
+                padding: 7px 11px 7px 11px;
+            }
+            #logo {
+                margin: auto;
+            }
+            #l    {
+                display: flex;
+                margin-top: 40px;
+            }
+            form {
+                display: grid;
+            }
+            form input {
+                width: 700px;
+                justify-self: center;
+                margin: 40px;
+            }
+            #buttons {
+                display: flex;
+                justify-content: center;
+            }
+            .search {
+                padding: 10px;
+                margin: 0 20px 0 20px;
+                background-color: #ddd;
+            }
+          </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="d1">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="d2">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><img width="25px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqTLXfiHWukrmqLYqEKq3oxWR5VZxoamEy7Q&usqp=CAU" alt="App selection icon"/></a>
+            <button id="signin"><strong>Sign In</strong></button>
+        </div>
+        </div>
+        <a id="l" href="#"><img id="logo" src="https://www.google.com/logos/doodles/2020/celebrating-pacita-abad-6753651837108476.2-l.png" alt="A colorful painting-like rendering of the Google logo featuring artist Pacita Abad." /></a>
+        <form>
+            <input type="text" width="600px"><br />
+            <div id="buttons">
+                <button class="search">Google Search</button>
+                <button class="search">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </body>
+</html>
